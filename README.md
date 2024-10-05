@@ -3,13 +3,13 @@
 ![Smart Lamp](https://github.com/OPIN-Smart-Home/SmartLamp/blob/main/asset/SmartLamp.png)
 
 ## Table of Contents
-For Users
+For User
 - [Introduction](#introduction)
 - [Features](#features)
 - [Components and Interface](#components-and-interface)
 - [User Guide](#user-guide)
 
-For Developers
+For Developer
 - [Installation](#installation)
 - [MQTT Topics](#mqtt-topics)
 - [Limitations](#limitations)
@@ -166,8 +166,8 @@ By following these steps, users can effectively set up and utilize the OPIN Smar
 ---
 ---
 
-# For Developers
-This section provides guidelines for developers looking to contribute to the OPIN Smart Home system. It's recommended to pay attention on [For Users](#for-users) section.
+# For Developer
+This section provides guidelines for developers looking to contribute to the OPIN Smart Home system. It's recommended to pay attention on [For User](#for-user) section.
 
 ## Installation
 ### Prerequisites
