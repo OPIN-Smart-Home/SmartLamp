@@ -16,6 +16,7 @@ For Developer
 - [Future Development](#future-development)
 
 Additional Information
+- [OPIN Smart Home Devices](#opin-smart-home-devices)
 - [Further Information](#further-information)
 
  ---
@@ -216,7 +217,15 @@ To enhance the functionality and usability of the OPIN SmartLamp, the following 
 ---
 ---
 
-# Further Information
+# Additional Information
+## OPIN Smart Home Devices
+Other devices:
+- [OPIN Smart Gateway](<https://github.com/OPIN-Smart-Home/OPIN-JetsonNano-public>)
+- [OPIN Smart kWh Meter](<https://github.com/OPIN-Smart-Home/kWhMeter>)
+- [OPIN Smart Door Lock](<https://github.com/OPIN-Smart-Home/DoorLock>)
+- [OPIN Smart AC Control](<https://github.com/OPIN-Smart-Home/ACControl>)
+
+## Further Information
 For further information, please feel free to contact me at:
 - **Email**: [anisahfarah28@gmail.com](mailto:anisahfarah28@gmail.com)
 - **LinkedIn**: [Anisah Farah Fadhilah](https://www.linkedin.com/in/anisahfarahfadhilah)
