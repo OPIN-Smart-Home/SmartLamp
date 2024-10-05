@@ -90,7 +90,8 @@ This section provides step-by-step instructions on how to set up and use the OPI
 ### 3. WiFi Configuration
 #### Add WiFi Configuration
 1. **Initiate WiFi Configuration**  
-   - Press the button once to enter WiFi configuration mode. The LED will blink twice, indicating that the device is ready to connect to a network.![Button1](https://github.com/OPIN-Smart-Home/SmartLamp/blob/main/asset/button1.gif)
+   - Press the button once to enter WiFi configuration mode. The LED will blink twice, indicating that the device is ready to connect to a network.  
+   ![Button1](https://github.com/OPIN-Smart-Home/SmartLamp/blob/main/asset/button1.gif)
 
 2. **Connect to the Network**  
    - Open the WiFi settings on your mobile, laptop, or PC.
@@ -107,14 +108,16 @@ This section provides step-by-step instructions on how to set up and use the OPI
 
 #### Reset WiFi Configuration
 1. **Initiate Reset**  
-   - Press and hold the button for at least two seconds. The LED will blink three times (indicating reset) followed by two blinks (entering WiFi configuration mode), signaling that the WiFi settings have been reset. This action will erase all previously saved WiFi configurations.![Button2](https://github.com/OPIN-Smart-Home/SmartLamp/blob/main/asset/button2.gif)
+   - Press and hold the button for at least two seconds. The LED will blink three times (indicating reset) followed by two blinks (entering WiFi configuration mode), signaling that the WiFi settings have been reset. This action will erase all previously saved WiFi configurations.  
+   ![Button2](https://github.com/OPIN-Smart-Home/SmartLamp/blob/main/asset/button2.gif)
 
 2. **Reconnect to the Network**  
    - After resetting the WiFi, follow step [2 "Connect to the Network"](#add-WiFi-configuration) from the **Add WiFi Configuration** section to reconnect the SmartLamp to your WiFi.
 
 #### Check IP Address of the Smart Lamp
 1. **Initiate WiFi Configuration**  
-   - Press the button once to enter WiFi configuration mode. The LED will blink twice, indicating that the device is ready for network configuration.![Button1](https://github.com/OPIN-Smart-Home/SmartLamp/blob/main/asset/button1.gif)
+   - Press the button once to enter WiFi configuration mode. The LED will blink twice, indicating that the device is ready for network configuration.  
+   ![Button1](https://github.com/OPIN-Smart-Home/SmartLamp/blob/main/asset/button1.gif)
 
 2. **Connect to the Network**  
    - Open the WiFi settings on your mobile, laptop, or PC.
@@ -123,7 +126,8 @@ This section provides step-by-step instructions on how to set up and use the OPI
       (1) Look for a notification asking you to `log in to the network`,  
       (2) Go to [WiFi settings](<https://media.techietech.tech/2020/06/Forget-Network.jpg.webp>) and select `Manage network settings`,  
       (3) Manually access the captive portal by opening `192.168.4.1` in your browser.
-   - The IP address of the Smart Lamp will be shown in the connected WiFi details box. (Refer to the provided image for reference.)![Check IP](https://github.com/OPIN-Smart-Home/SmartLamp/blob/main/asset/check_ip.jpeg)
+   - The IP address of the Smart Lamp will be shown in the connected WiFi details box. (Refer to the provided image for reference.)  
+   ![Check IP](https://github.com/OPIN-Smart-Home/SmartLamp/blob/main/asset/check_ip.jpeg)
 
 3. **Exit Configuration Mode**  
    - After checking the IP address, select `Exit` to complete the configuration process. The LED will turn solid, indicating that the SmartLamp is successfully connected to your WiFi network.
