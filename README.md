@@ -24,11 +24,11 @@ Additional Information
 
 # For User
 ## Introduction  
-The OPIN SmartLamp empowers users to manage their home lighting effortlessly through the [OPIN Gateway](<https://github.com/OPIN-Smart-Home/OPIN-JetsonNano-public>), offering both automation and manual control via the OPIN mobile application. It provides a flexible lighting solution that can be integrated into various smart home routines, making it an essential element for enhancing comfort, security, and energy efficiency.
+The OPIN Smart Lamp empowers users to manage their home lighting effortlessly through the [OPIN Gateway](<https://github.com/OPIN-Smart-Home/OPIN-JetsonNano-public>), offering both automation and manual control via the OPIN mobile application. It provides a flexible lighting solution that can be integrated into various smart home routines, making it an essential element for enhancing comfort, security, and energy efficiency.
 
-With the SmartLamp integrated into the OPIN system, users can remotely switch lights on or off, and configure intelligent automation based on [human detection](<https://github.com/OPIN-Smart-Home/OPIN-JetsonNano-public?tab=readme-ov-file#auto-off-system-human-detection>), optimizing light usage according to activity within the home. This functionality reduces unnecessary energy consumption, contributing to a more efficient and eco-friendly household.
+With the Smart Lamp integrated into the OPIN system, users can remotely switch lights on or off, and configure intelligent automation based on [human detection](<https://github.com/OPIN-Smart-Home/OPIN-JetsonNano-public?tab=readme-ov-file#auto-off-system-human-detection>), optimizing light usage according to activity within the home. This functionality reduces unnecessary energy consumption, contributing to a more efficient and eco-friendly household.
 
-For developers, the SmartLamp leverages MQTT topics for communication, allowing seamless integration into the OPIN Gateway. By utilizing MQTT messaging, developers can easily control the SmartLamp, implement custom automation rules, and expand its functionality within the OPIN network. The simplicity of MQTT makes it ideal for quick deployment and further customization, enabling the SmartLamp to be an adaptable part of any smart home system.
+For developers, the Smart Lamp leverages MQTT topics for communication, allowing seamless integration into the OPIN Gateway. By utilizing MQTT messaging, developers can easily control the Smart Lamp, implement custom automation rules, and expand its functionality within the OPIN network. The simplicity of MQTT makes it ideal for quick deployment and further customization, enabling the Smart Lamp to be an adaptable part of any smart home system.
 
 ## Features
 1. **Remote Control**  
@@ -38,16 +38,16 @@ For developers, the SmartLamp leverages MQTT topics for communication, allowing 
 3. **Energy Efficiency**  
    Reduce electricity consumption by automating lights to turn off when no one is detected in a room, contributing to a more sustainable and eco-friendly home.
 4. **Manual Override**  
-   Lights can be manually controlled through a conventional light switch, allowing users to turn the SmartLamp on or off without needing the app.
+   Lights can be manually controlled through a conventional light switch, allowing users to turn the Smart Lamp on or off without needing the app.
 5. **Seamless Integration**  
-   The SmartLamp communicates with the OPIN Gateway via MQTT, simplifying the integration process into your existing smart home ecosystem.
+   The Smart Lamp communicates with the OPIN Gateway via MQTT, simplifying the integration process into your existing smart home ecosystem.
 6. **Status Monitoring**  
    Keep track of the lamp’s status (on/off) in real-time within the OPIN app, ensuring full visibility and control over your lighting setup.
 7. **Easy Installation**  
    Connects seamlessly to the OPIN Gateway for quick and hassle-free setup, making it accessible even for beginners.
 
 ## Components and Interface
-The following components are used in the OPIN SmartLamp. The numbers correspond to the labels in the [cover image](#opin-smart-lamp).
+The following components are used in the OPIN Smart Lamp. The numbers correspond to the labels in the [cover image](#opin-smart-lamp).
 1. [**ESP32 Devkit V1**](<https://olddocs.zerynth.com/r2.3.3/official/board.zerynth.doit_esp32/docs/index.html>)  
    The microcontroller responsible for managing the device's operations and communication via MQTT.
 2. **LED**  
@@ -59,7 +59,7 @@ The following components are used in the OPIN SmartLamp. The numbers correspond 
 5. **Relay Module 5V with Optocoupler**  
    Controls the electrical switching of the lights, allowing automation and remote control.
 6. **Switch**  
-   The device includes two cables that connect to an external switch. This switch allows users to manually turn the SmartLamp on or off.
+   The device includes two cables that connect to an external switch. This switch allows users to manually turn the Smart Lamp on or off.
 7. **AC Power Input (L/N)**  
    Two cables are provided for AC power input, connecting the device to the line (L) and neutral (N) lines of the electrical source.
 8. **Load Connection (L)**  
@@ -67,7 +67,7 @@ The following components are used in the OPIN SmartLamp. The numbers correspond 
 
 ## User Guide
 This section provides step-by-step instructions on how to set up and use the OPIN Smart Lamp effectively.
-### 1. Setting Up the OPIN SmartLamp
+### 1. Setting Up the OPIN Smart Lamp
 1. **Connect the Hardware**  
    - Connect the external switch to the provided cables.
    - Connect the load cable to your lights.
@@ -81,7 +81,7 @@ This section provides step-by-step instructions on how to set up and use the OPI
    These diagrams illustrate the correct way to connect the device to the power source, load, and switch for safe and efficient operation.
 
 2. **Power On the Device**  
-   - Turn on the power supply to the SmartLamp. The LED indicator should light up (blinking or solid blue), indicating that the device is powered.
+   - Turn on the power supply to the Smart Lamp. The LED indicator should light up (blinking or solid blue), indicating that the device is powered.
 
 ### 2. LED Indicator
 1. **Solid**: The device is connected to the network.
@@ -105,7 +105,7 @@ This section provides step-by-step instructions on how to set up and use the OPI
    ![Configure WiFi](https://github.com/OPIN-Smart-Home/SmartLamp/blob/main/asset/configure_wifi.png)
 
 3. **Confirm Connection**  
-   - After the connection is established, the LED will turn solid, indicating that the SmartLamp is successfully connected to your WiFi network.
+   - After the connection is established, the LED will turn solid, indicating that the Smart Lamp is successfully connected to your WiFi network.
 
 #### Reset WiFi Configuration
 1. **Initiate Reset**  
@@ -113,7 +113,7 @@ This section provides step-by-step instructions on how to set up and use the OPI
    ![Button2](https://github.com/OPIN-Smart-Home/SmartLamp/blob/main/asset/button2.gif)
 
 2. **Reconnect to the Network**  
-   - After resetting the WiFi, follow step [2 "Connect to the Network"](#add-WiFi-configuration) from the **Add WiFi Configuration** section to reconnect the SmartLamp to your WiFi.
+   - After resetting the WiFi, follow step [2 "Connect to the Network"](#add-WiFi-configuration) from the **Add WiFi Configuration** section to reconnect the Smart Lamp to your WiFi.
 
 #### Check IP Address of the Smart Lamp
 1. **Initiate WiFi Configuration**  
@@ -131,25 +131,25 @@ This section provides step-by-step instructions on how to set up and use the OPI
    ![Check IP](https://github.com/OPIN-Smart-Home/SmartLamp/blob/main/asset/check_ip.jpeg)
 
 3. **Exit Configuration Mode**  
-   - After checking the IP address, select `Exit` to complete the configuration process. The LED will turn solid, indicating that the SmartLamp is successfully connected to your WiFi network.
+   - After checking the IP address, select `Exit` to complete the configuration process. The LED will turn solid, indicating that the Smart Lamp is successfully connected to your WiFi network.
 
 ### 4. Connect OPIN Smart Lamp to OPIN Mobile App
 1. **Add New Device**  
    - Open the OPIN mobile app and click the `Add New Device` option.  
    - Select `Smart Lamp` from the list of devices.  
-   - Enter the `Device ID` and `IP Address` of the SmartLamp.  
+   - Enter the `Device ID` and `IP Address` of the Smart Lamp.  
    - Click `Submit`.  
    > **Note**: Ensure that the device ID and IP address are correct; otherwise, the process will fail.
 
-2. **Control the SmartLamp**  
+2. **Control the Smart Lamp**  
    - Navigate to the dashboard in the OPIN mobile app.  
    - Select `Smart Lamp`.  
-   - You can remotely turn the SmartLamp on or off and monitor its current state. Additionally, the app offers the `Auto Off` feature, which automatically turns off the SmartLamp when no person is detected in the room. For more details, refer to the [Auto Off feature documentation](<https://github.com/OPIN-Smart-Home/OPIN-JetsonNano-public#auto-off-feature>).
+   - You can remotely turn the Smart Lamp on or off and monitor its current state. Additionally, the app offers the `Auto Off` feature, which automatically turns off the Smart Lamp when no person is detected in the room. For more details, refer to the [Auto Off feature documentation](<https://github.com/OPIN-Smart-Home/OPIN-JetsonNano-public#auto-off-feature>).
 
 
 ### 5. Manual Control
-- Use the connected switch to manually turn the SmartLamp on or off. This feature allows users to control the device without the need for the mobile app.  
-- When the SmartLamp is controlled via the switch, the state will automatically sync and update in the OPIN mobile app, ensuring the app always displays the correct status of the SmartLamp.
+- Use the connected switch to manually turn the Smart Lamp on or off. This feature allows users to control the device without the need for the mobile app.  
+- When the Smart Lamp is controlled via the switch, the state will automatically sync and update in the OPIN mobile app, ensuring the app always displays the correct status of the Smart Lamp.
 
 ### 6. Troubleshooting
 - **Device Not Responding**:  
@@ -159,17 +159,16 @@ This section provides step-by-step instructions on how to set up and use the OPI
    - Unplug and reconnect the power source to restart the device if necessary.
 - **WiFi Connection Issues**: 
    - Ensure that the WiFi credentials entered during configuration are correct.
-   - Verify that the WiFi network is operational and within range of the SmartLamp.
+   - Verify that the WiFi network is operational and within range of the Smart Lamp.
    - Inspect the wiring, especially for any loose or faulty connections.
 
-By following these steps, users can effectively set up and utilize the OPIN SmartLamp for enhanced home automation and lighting control.
+By following these steps, users can effectively set up and utilize the OPIN Smart Lamp for enhanced home automation and lighting control.
 
 ---
 ---
 
 # For Developer
 This section provides guidelines for developers looking to contribute to the OPIN Smart Home system. It's recommended to pay attention on [For User](#for-user) section.
-
 ## Installation
 ### Prerequisites
 Before you begin, ensure you have the following installed on your development environment:
@@ -187,32 +186,32 @@ git clone https://github.com/OPIN-Smart-Home/SmartLamp.git
 ```
 
 ## MQTT Topics
-The following MQTT topics are utilized for communication between the OPIN SmartLamp and the OPIN gateway:
+The following MQTT topics are utilized for communication between the OPIN Smart Lamp and the OPIN gateway:
 - **Device to User (d2u)**:  
   `opin/SmartLamp_[device_id]/d2u`  
-  This topic is used to send messages from the SmartLamp to the mobile app (device to user). It reports the current state of the lamp, including updates triggered by the manual switch.
+  This topic is used to send messages from the Smart Lamp to the mobile app (device to user). It reports the current state of the lamp, including updates triggered by the manual switch.
 - **User to Device (u2d)**:  
   `opin/SmartLamp_[device_id]/u2d`  
-  This topic is used for sending commands from the mobile app to the SmartLamp (user to device). Commands include turning the lamp on or off.
+  This topic is used for sending commands from the mobile app to the Smart Lamp (user to device). Commands include turning the lamp on or off.
 - **Device SSID**:  
   `OPIN-SmartLamp-[device_id]`  
-  This SSID is employed for connecting the SmartLamp to WiFi during the initial configuration process.
-> **Note**: The gateway will not accept the same `device_id` for multiple SmartLamps. Developers must ensure that each SmartLamp has a unique `device_id` to avoid communication conflicts within the system.
+  This SSID is employed for connecting the Smart Lamp to WiFi during the initial configuration process.
+> **Note**: The gateway will not accept the same `device_id` for multiple Smart Lamps. Developers must ensure that each Smart Lamp has a unique `device_id` to avoid communication conflicts within the system.
 
 ## Limitations
-While the OPIN SmartLamp is designed to provide a reliable smart lighting solution, there are some limitations to be aware of:  
-1. **Network Dependency**: The SmartLamp requires a stable WiFi connection for full functionality. Any interruptions or disconnections from the network can result in loss of control or status updates.
-2. **Device ID Uniqueness**: Each SmartLamp must have a unique `device_id`. Duplicate `device_id`s are not permitted, as they can lead to communication conflicts with the gateway.
-3. **Range Limitations**: The effective range of the WiFi signal can affect the SmartLamp's performance. Ensure that the SmartLamp is within the coverage area of the WiFi network for optimal operation.
-4. **Power Dependency**: The SmartLamp must be powered on to function. If the power supply is interrupted or turned off, the SmartLamp will be non-operational until power is restored.
-5. **Basic Functionality**: The SmartLamp is designed primarily for basic on/off control of the lights. It does not support advanced features such as brightness adjustment or RGB color customization.
-6. **Dependency on the Gateway**: The SmartLamp relies on the OPIN gateway for communication with the mobile app. Any issues with the gateway may affect the SmartLamp's functionality.
+While the OPIN Smart Lamp is designed to provide a reliable smart lighting solution, there are some limitations to be aware of:  
+1. **Network Dependency**: The Smart Lamp requires a stable WiFi connection for full functionality. Any interruptions or disconnections from the network can result in loss of control or status updates.
+2. **Device ID Uniqueness**: Each Smart Lamp must have a unique `device_id`. Duplicate `device_id`s are not permitted, as they can lead to communication conflicts with the gateway.
+3. **Range Limitations**: The effective range of the WiFi signal can affect the Smart Lamp's performance. Ensure that the Smart Lamp is within the coverage area of the WiFi network for optimal operation.
+4. **Power Dependency**: The Smart Lamp must be powered on to function. If the power supply is interrupted or turned off, the Smart Lamp will be non-operational until power is restored.
+5. **Basic Functionality**: The Smart Lamp is designed primarily for basic on/off control of the lights. It does not support advanced features such as brightness adjustment or RGB color customization.
+6. **Dependency on the Gateway**: The Smart Lamp relies on the OPIN gateway for communication with the mobile app. Any issues with the gateway may affect the Smart Lamp's functionality.
 
 ## Future Development
-To enhance the functionality and usability of the OPIN SmartLamp, the following areas are identified for future development:
+To enhance the functionality and usability of the OPIN Smart Lamp, the following areas are identified for future development:
 1. **Improved Connectivity Options**: Investigate the implementation of alternative connectivity protocols (e.g., Zigbee, Z-Wave) to provide a more robust and reliable connection, minimizing dependency on WiFi.
 2. **Expanded Functionality**: Develop features that allow users to adjust brightness levels and RGB colors. This will provide users with greater control over their lighting environment and enhance the overall smart home experience.
-3. **Enhanced Range and Signal Strength**: Explore solutions to extend the effective range of the WiFi signal, such as the integration of mesh networking or the use of WiFi range extenders, ensuring that the SmartLamp can operate effectively in larger spaces.
+3. **Enhanced Range and Signal Strength**: Explore solutions to extend the effective range of the WiFi signal, such as the integration of mesh networking or the use of WiFi range extenders, ensuring that the Smart Lamp can operate effectively in larger spaces.
 
 ---
 ---
