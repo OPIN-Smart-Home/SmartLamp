@@ -1,5 +1,7 @@
 # OPIN Smart Lamp
 
+[![License](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+
 ![Smart Lamp](https://github.com/OPIN-Smart-Home/SmartLamp/blob/main/asset/SmartLamp.png)
 
 ## Table of Contents
